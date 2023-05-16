@@ -1,0 +1,48 @@
+'1-  How  we can access HTML elements using DOM in jawascript
+
+(1)Access by ID
+var element = document.getElementById('any id');
+
+
+(2)Access by className
+
+we access element by className in HTML
+
+Eg:
+var elements = document.getElementsByClassName(' Any className');
+
+(3) Access by tag name 
+ we also access an element in HTML by tag name
+
+ Eg:
+ var elements = document.getElementsByTagName('Here');
+
+ (4) Access with traversing:
+
+ the method access an element with traversing is as following
+
+ var parentElement = document.getElementById('parentId');
+var element = parentElement.querySelector('selector');
+
+(5): Access element from DOM by name 
+
+the name accessing method is as following:
+
+var form = document.forms['Name'];
+var element = form.elements['elementName'];
+
+
+
+
+2-  What are the activities that are we perform by DOM
+
+
+there are some activities that are we perform on DOM are as following
+
+                1 Accessing element
+                2 Modifing Element
+               3 styling Element
+               4 Hndling event
+               5 Creating and appending Element
+
+
